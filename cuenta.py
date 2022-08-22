@@ -28,7 +28,6 @@ class CuentaBancaria:
             self.balance += (self.balance*self.interes)
         return self
 
-
 ahorros = CuentaBancaria(100, 2)
 corriente= CuentaBancaria(200,5)
 ahorros.mostrar().deposito(120).mostrar().deposito(60).mostrar().deposito(60).mostrar().retiro(240).mostrar().generarInteres().mostrar()
